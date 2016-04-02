@@ -1,0 +1,46 @@
+{
+    "images": [
+        {
+            "imgPath": "img/pics/1.jpg",
+            "imgLocation": "Ireland",
+            "description": "Landscape in Ireland",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/2.jpg",
+            "imgLocation": "China",
+            "description": "China",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/3.jpg",
+            "imgLocation": "Germany",
+            "description": "Germany",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/4.jpg",
+            "imgLocation": "Canada",
+            "description": "Canada",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/5.jpg",
+            "imgLocation": "New Zealand",
+            "description": "New Zealand",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/6.jpg",
+            "imgLocation": "Japan",
+            "description": "Japan",
+            "date": "04/01/2016"
+        },
+        {
+            "imgPath": "img/pics/7.jpg",
+            "imgLocation": "Scotland",
+            "description": "Scotland",
+            "date": "04/01/2016"
+        }
+    ]
+}
