@@ -6,7 +6,7 @@ body {
 
 #photoBooth {
     margin-top: .2em;
-    padding: 10px;
+    padding:;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +31,7 @@ body {
     position: absolute;
     z-index: 3;
     opacity: .8;
-    top: 300px;
+    top: 350px;
     right: 300px;
 }
 
