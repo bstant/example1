@@ -31,6 +31,10 @@ function animate() {
 }
 
 function swapPhoto() {
+	//Add code here to access the #slideShow element.
+	//Access the img element and replace its source
+	//with a new image from your images array which is loaded 
+	//from the JSON string
 	if(mCurrentIndex < mImages.length)
 	{	
 		$('.thumbnail').attr('src', mImages[mCurrentIndex].img);
@@ -101,12 +105,19 @@ window.addEventListener('load', function()
 	console.log('window loaded');
 
 }, false);
+
+
+	//implement me as an object to hold the following data about an image:
+	//1. location where photo was taken
+	//2. description of photo
+	//3. the date when the photo was taken
+	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 	
-	function GalleryImage(location,description,date,source) {
+	function GalleryImage(location,description,date,img) {
 		this.location = location;
 		this.description = description;
 		this.date = date;
-		this.source = source;
+		this.img = img;
 		
 	}
 	
@@ -119,3 +130,11 @@ window.addEventListener('load', function()
 		}
 	
 	}
+
+	$('img.moreIndicator.rot90').click(function() 
+	{
+		$(this).toggleClass("rot270");
+		$("div.details").toggle();
+	});
+
+
